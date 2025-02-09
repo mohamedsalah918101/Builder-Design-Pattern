@@ -24,15 +24,15 @@ The Builder pattern helps construct complex objects step by step. This implement
 ```dart
 // Create a basic user with only required fields
 final basicUser = UserBuilder(
-  firstName: 'John',
-  lastName: 'Doe',
+  firstName: 'Mohamed',
+  lastName: 'Salah',
 ).build();
 
 // Create a user with all fields
 final fullUser = UserBuilder(
-  firstName: 'Jane',
-  lastName: 'Smith',
+  firstName: 'Ahmed',
+  lastName: 'Hany',
 )
-  ..setAge(30)
-  ..setPhone('+1234567890')
+  ..setAge(23)
+  ..setPhone('+201550918101')
   .build();
